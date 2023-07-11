@@ -1,0 +1,32 @@
+name: Zola to rsync
+
+on:
+  push:
+    branches:
+      - main 
+  pull_request:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3.0.0
+      - name: Build only 
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          BUILD_ONLY: true
+          CHECK_LINKS: true
+          
+      - name: rsync to fyksen.me
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ARGS: "-rlgoDzvc -i"
+          SOURCE: ./public/
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
+          TARGET: ~/fyksen.me/
+          SCRIPT_AFTER: |
+            echo $RSYNC_STDOUT
