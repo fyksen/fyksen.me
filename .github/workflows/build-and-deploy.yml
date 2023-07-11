@@ -21,7 +21,7 @@ jobs:
           ARGS: "-rlgoDzvc -i"
           SOURCE: ./public/
           REMOTE_HOST: info.skvidar.run
-          REMOTE_USER: ${{ secrets.SSH_USER }}
+          REMOTE_USER: fyksen
           TARGET: ~/fyksen.me/
           SCRIPT_AFTER: |
             echo $RSYNC_STDOUT
