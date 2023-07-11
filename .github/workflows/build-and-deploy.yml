@@ -1,10 +1,5 @@
 name: Zola to rsync
-
-on:
-  push:
-    branches:
-      - main 
-  pull_request:
+on: [push]
   
 jobs:
   build:
@@ -13,6 +8,7 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
+
       - name: Build only 
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
@@ -23,7 +19,7 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i"
+          ARGS: "--avzr --delete"
           SOURCE: ./public/
           REMOTE_HOST: info.skvidar.run
           REMOTE_USER: ${{ secrets.SSH_USER }}
