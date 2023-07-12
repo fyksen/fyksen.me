@@ -1,4 +1,3 @@
-# Be sure to change these!
 base_url = "https://fyksen.me"
 title = "Fyksen.Me"
 
@@ -57,9 +56,9 @@ menu_items = [
 
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
-    {name = "tags", url = "$BASE_URL/tags"},
-    {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about me", url = "$BASE_URL/about"},
+    {name = "tags", url = "$BASE_URL/tags/"},
+    {name = "archive", url = "$BASE_URL/archive/"},
+    {name = "about me", url = "$BASE_URL/about/"},
 
 ]
 
