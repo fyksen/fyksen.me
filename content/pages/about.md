@@ -15,5 +15,5 @@ I'm Fredrik Fyksen, a DevOps engineer residing in Oslo. I'm proud to be a part o
 * [Mail](mailto:fredrik@fyksen.me) - Good o'l mail.
 
 
-{{ image(src="/img/2023/fyksen.png", alt="Picture of me",
+{{ image(src="/img/about/fyksen.png", alt="Picture of me",
          position="center", style="border-radius: 15px;") }}
