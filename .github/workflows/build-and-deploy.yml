@@ -18,10 +18,10 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i"
+          ARGS: "-rlDzvc --delete"
           SOURCE: ./public/
           REMOTE_HOST: info.skvidar.run
           REMOTE_USER: fyksen
-          TARGET: ~/fyksen.me/
+          TARGET: /var/fyksen.me/
           SCRIPT_AFTER: |
             echo $RSYNC_STDOUT
