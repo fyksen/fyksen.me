@@ -102,7 +102,11 @@ You can run this script by running:
 ```
 wget https://fyksen.me/scripts/webdav-nextcloud.sh
 chmod +x webdav-nextcloud.sh
-./webdav-nextcloud.sh --nextcloud_user=<nextcloudUser> --nextcloud_app_password=<nextcloutAppPassword> --nextcloud_webdav_address=<https://nextcloud.test.com/remote.php/dav/files/user> --mount_point=</home/user/nextcloud>
+./webdav-nextcloud.sh \
+ --nextcloud_user=<nextcloudUser> \
+ --nextcloud_app_password=<nextcloutAppPassword> \
+ --nextcloud_webdav_address=<https://nextcloud.test.com/remote.php/dav/files/user> \
+ --mount_point=</home/user/nextcloud>
 ```
 
 Here's the script.
