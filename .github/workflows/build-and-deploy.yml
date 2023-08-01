@@ -20,8 +20,8 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-rlDzvc --delete"
           SOURCE: ./public/
-          REMOTE_HOST: info.skvidar.run
-          REMOTE_USER: fyksen
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
           TARGET: /var/fyksen.me/
           SCRIPT_AFTER: |
             echo $RSYNC_STDOUT
