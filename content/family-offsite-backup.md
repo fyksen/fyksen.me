@@ -41,7 +41,7 @@ The optimal way of doing this might be to use ssh with ssh keys and TFA on ddns,
 I went with Alma linux 9, but this should work on all rpm based distros.
 ### DDNS
 I want to use podman with ddclient and cloudflare.
-Create a Cloudflare API token for the zone [here](https://dash.cloudflare.com/profile/api-tokens).
+Create a Cloudflare API token for the zone [here](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/).
 You should also create a subdomain for your host.
 Remember to change out `fyksen.me` with your domain, and `YourTokenCode` with the token you got from cloudflare.
 
