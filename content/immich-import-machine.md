@@ -22,7 +22,7 @@ To make the process simpler, I created some scripts to automatically import phot
 * If the user sets geolocation it gets the coordinates from address import, and checks that against Open Street map. The user then gets a map it can fine adjust the location on.
 * The app then imports the photos to Immich.
 
-<iframe width="560" height="315" src="https://fyksen.me/img/2023/video-import.webm" frameborder="0" allowfullscreen></iframe>
+<iframe width="90%" src="https://fyksen.me/img/2023/video-import.webm" frameborder="0" allowfullscreen></iframe>
 
 ## How do I set it up?
 
