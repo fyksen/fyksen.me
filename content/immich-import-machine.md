@@ -111,11 +111,17 @@ touch "$MANIFEST"
 # For each JPG, jpeg, and jpg file in SOURCE, check against manifest and copy if it's new
 find "$SOURCE" -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) | while read -r file; do
     filename=$(basename "$file")
-    
+
     if ! grep -q "^$filename$" "$MANIFEST"; then
-        # Extract the file's modification date and create a target subdirectory for that date
-        file_date=$(stat -c %y "$file" | cut -d ' ' -f1)
-        TARGET="${BASE_TARGET}${file_date}/"
+        # Extract the file's modification Unix timestamp and calculate the time group
+        file_timestamp=$(stat -c %Y "$file")
+        time_group=$((file_timestamp / TIME_WINDOW * TIME_WINDOW))
+
+        # Convert the Unix timestamp to a human-readable string in the format yyyy-mm-dd-hh:mm
+        time_string=$(date -d "@$time_group" +'%Y-%m-%d-%H%M')
+        
+        # Create a target subdirectory for that time group
+        TARGET="${BASE_TARGET}${time_string}/"
         mkdir -p "$TARGET"
 
         # Copy the file using rsync to preserve timestamps
