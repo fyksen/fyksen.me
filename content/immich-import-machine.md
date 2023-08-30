@@ -223,7 +223,7 @@ systemctl --user enable --now container-immich-geolocation-import.service
 
 This setup has pretty rough edges. It does not output much about it's progress, and it does not check if your HDD is big enough for the photos. There is however a couple of things you can check. It also takes about 10 seconds for the import to start after the site says "Photos imported successfully" 😅. 
 
-* Visit [localhost:8000](http://localhost:8000) and see if your directories are getting more files.
+* Visit `http://localhost:8000` and see if your directories are getting more files.
 * Check the file `import_manifest.txt` with
 
 ```
