@@ -78,7 +78,7 @@ Warm up: 1,2km from hotel.
 Intervals: 4 x 500m, 80 seconds break.
 Cool down: 1,2km back to hotel
 ```
-**Total: 4,4km**
+**Total: 4,4 km**
 
 ##### lvl 2, "I run sometimes, but I want energy for the rest of the day"
 
@@ -100,7 +100,7 @@ Interval part 1: 2 x  2,6 km. (2x1,3 in one interval), 70 second break.
 Interval part 2: 4 x 1,3 km, 60 second break.
 Cool down: 1,2 km back to hotel.
 ```
-**Total: 13,8**
+**Total: 13,8 km**
 
 ```
 Protip:
