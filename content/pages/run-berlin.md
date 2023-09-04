@@ -4,21 +4,21 @@ path = "run-berlin"
 +++
 
 
-I want to run while we're at the Gathering in Berlin, and I want *you* yo join me. If you think the paces are to fast, or the routes too long. Please feel free to join me for part of the loops.
+I want to run while we're at the Gathering in Berlin, and I want *you* to join me. If you think the paces are too fast, or the routes too long. Please feel free to join me for part of the loops.
 
 ## Here's the plan...
-While we have some time on the middle of the day on Saturday, I always find it hard to run when it is possible to choose going to a bar instead. I therefor want to run in the morning, leaving the rest of the day for enjoyment.
+While we have some time in the middle of the day on Saturday, I always find it hard to run when it is possible to choose going to a bar instead. I therefore want to run in the morning, leaving the rest of the day for enjoyment.
 
 >Early bird gets the worm.
 
 ### Friday: Morning Easy jog
 
 * **👟 Distance**: 11 km
-* **⚡️ Pace**: 5:30 pr/km
-* **🕖️ When**: 7:00
+* **⚡️ Pace**: 5:30 min/km
+* **🕖️ When**: 7:00 a.m.
 * **🗺️ Where**: Hotel lobby
 
-Running at 7:00, and running 5:30 pace should bring us back to the hotel at 8. This leaves one hour for shower, getting dressed and eating breakfast. Welcome speech starts at 9. 
+Running at 7:00 a.m., and running 5:30 pace should bring us back to the hotel at 8 a.m.. This leaves one hour for shower, getting dressed and eating breakfast. Welcome speech starts at 9 a.m.. 
 
 <details>
     <summary>Click here to see map</summary>
@@ -28,12 +28,12 @@ Running at 7:00, and running 5:30 pace should bring us back to the hotel at 8. T
 ```
 Protip:
 - Eat well the day before, and have a banana before the run.
-- Pack out running gear the day before.
+- Prepare your running gear the day before.
 ```
 
 ## Saturday: Intervals in Volkspark Friedrichshain park
 
-Saturday intervals is a tradition for me, and I can't let the Gathering ruin the streak. The best thing about intervals is that we can run together, even if we run different paces. I made a suggestion for a 500m loop.
+Saturday intervals is a tradition for me, and I can't let the Gathering ruin the streak. The best thing about intervals is that we can run together, even if we run different paces. I have made a suggestion for a 500m loop.
 
 * **👟 Distance**: You decide
 * **⚡️ Pace**: You decide 
