@@ -26,7 +26,9 @@ Running at 7:00, and running 5:30 pace should bring us back to the hotel at 8. T
 </details>
 
 ```
-Protip: Eat well the day before, and have a banana before the run.
+Protip:
+- Eat well the day before, and have a banana before the run.
+- Pack out running gear the day before.
 ```
 
 ## Saturday: Intervals in Volkspark Friedrichshain park
