@@ -69,7 +69,7 @@ The plan is to run to Volkspark Friedrichshain park (1,2km from the hotel). This
 
 Sure, here are some options:
 
-### lvl 1, "I just started getting fit again, or hung over".
+##### lvl 1, "I just started getting fit again, or hung over".
 
 ```
 Warm up: 1,2km from hotel.
@@ -78,7 +78,7 @@ Cool down: 1,2km back to hotel
 ```
 **Total: 4,4km**
 
-### lvl 2, "I run sometimes, but I want energy for the rest of the day"
+##### lvl 2, "I run sometimes, but I want energy for the rest of the day"
 
 ```
 Warm up: 1,2 km from hotel.
@@ -90,7 +90,7 @@ Cool down: 1,2 km back to hotel.
 
 ---
 
-### lvl 3: "Get fit, or die trying"
+##### lvl 3: "Get fit, or die trying"
 
 ```
 Warm up: 2,2 km. (From hotel to park + 2 rounds in the short loop.)
