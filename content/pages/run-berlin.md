@@ -75,7 +75,7 @@ Sure, here are some options:
 
 ```
 Warm up: 1,2km from hotel.
-Intervals: 4 x 500m, 120 seconds break.
+Intervals: 4 x 500m, 80 seconds break.
 Cool down: 1,2km back to hotel
 ```
 **Total: 4,4km**
