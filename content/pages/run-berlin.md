@@ -1,5 +1,5 @@
 +++
-title = "Repill Linpro Run Berlin"
+title = "Redpill-Linpro Run Berlin"
 path = "run-berlin"
 +++
 
