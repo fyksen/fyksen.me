@@ -65,4 +65,6 @@ Categories=Network;
 
 Remember to update the path for Exec. Desktop shortcuts doesn't support environment variables, so you need to use the full path.
 
+`protip`, you can delete the original .desktop file, to de-clutter your launcher. `sudo rm /usr/share/applications/vmware-view.desktop`
+
 ![Screenshot of the prompt](/img/2024/vmware-viewer.png)
