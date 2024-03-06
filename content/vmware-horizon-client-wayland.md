@@ -14,6 +14,8 @@ vmware-view -s <serveraddress> -t <username> -p <password> -n <desktopName> --si
 
 This is not a perfect solution, because it is a bit clunky.
 
+<!-- more -->
+
 ## Creating a smoother experience
 
 To make it a bit smoother, I created a script that uses environment variables to set the username, password, server address, desktop name. And then prompts the user for a RSA token. I used `zenity` to have the prompt use a GUI. Here is the script:
