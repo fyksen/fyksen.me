@@ -81,7 +81,7 @@ Etter en `docker compose up -d` vil du kunne nå f.eks http://serverip:8000/papa
 
 ## Patrion
 
-Patrion gir ut rss til innhold [her](https://support.patreon.com/hc/en-us/articles/212055866-Subscribe-to-your-Audio-RSS-link-on-the-Patreon-app).
+Patrion gir ut rss til innhold. De generer RSS feeds pr bruker, sånn som Podme og NRK burde gjort.
 
 ## Har du tips?
 
