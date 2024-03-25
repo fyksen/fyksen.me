@@ -21,7 +21,7 @@ NRK er i mine øyne den største synderen. Det gjør meg vondt at skattepengene 
 
 ## Podme
 
-Siden Podme ligger bak betalingsmur er det ingen som har laget en åpen nettside som man enkelt kan hente ut RSS. Det trengs en egen server. Heldigvis har [Mathias Oterhals Myklebust](https://oterbust.no/) laget en python app som henter ned episodene og genererer en RSS feed.
+Siden Podme ligger bak betalingsmur er det ingen som har laget en åpen nettside som man enkelt kan hente ut RSS. Du trenger en egen server for dette. Heldigvis har [Mathias Oterhals Myklebust](https://oterbust.no/) laget en python app som henter ned episodene og genererer en RSS feed.
 
 `docker-compose.yml`
 
@@ -79,9 +79,9 @@ podcasts:
 
 Etter en `docker compose up -d` vil du kunne nå f.eks http://serverip:8000/papaya, som er rss feeden du kan bruke i podcast appen din. Du kan peke en reverse proxy mot <ip>:8000 for å legge den bak proxy. Basic auth med nginx eller caddy funker fint.
 
-## Patrion
+## Patreon
 
-Patrion gir ut rss til innhold. De generer RSS feeds pr bruker, sånn som Podme og NRK burde gjort.
+Patreon gir ut rss til innhold. De generer RSS feeds pr bruker, sånn som Podme og NRK burde gjort.
 
 ## Har du tips?
 
